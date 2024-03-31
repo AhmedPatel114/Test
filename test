@@ -1,0 +1,9 @@
+surname = input("Enter the Surname: ")
+year = input("Enter Year: ")
+staff = surname + str(year)
+while len(staff) <= 10:
+    print("id" + staff)
+    staff = staff + "x"
+
+print("id" + staff)
+
